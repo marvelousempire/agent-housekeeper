@@ -12,6 +12,7 @@
 | FEAT-0006 | Motif Design Alignment | Draft | tickets/FEAT-0006-motif-design-alignment.md |
 | FEAT-0007 | Wiki Journal Layer | Draft | tickets/FEAT-0007-wiki-journal-layer.md |
 | FEAT-0008 | Reference Folder Pattern | Draft | tickets/FEAT-0008-reference-folder-pattern.md |
+| FEAT-0009 | Schema Alignment | Draft | tickets/FEAT-0009-schema-alignment.md |
 
 ## Rule
 
