@@ -6,6 +6,8 @@ Agent Housekeeper is a reusable repo-management agent standard.
 
 It defines how an AI agent should act as a project housekeeper: reading the repo, preserving founder intent, organizing docs, maintaining README files, tracking features, creating journals, keeping release memory, validating changes, and preparing the repo for RAG, Obsidian, and AI-assisted workflows.
 
+This is not only a clever tagline. The repo backs it up with a working system prompt stack, firing order, validation process, feature ledger, repo manifest, release ledger, wiki layer, journal layer, and reusable workflow.
+
 ## Purpose
 
 This repo is the reusable standard for Housekeeper Agents.
@@ -19,6 +21,26 @@ A repo is a house.
 The Housekeeper Agent keeps the house organized.
 
 It knows which files matter, which folders must exist, which ledgers must be updated, and which rules should fire first.
+
+## Proof In The Repo
+
+The Housekeeper idea is backed by actual project structure:
+
+```text
+agents/housekeeper/system-prompt/
+agents/housekeeper/system-prompt/firing-order.json
+agents/housekeeper/persona.md
+agents/housekeeper/knowledge-sources.md
+agents/housekeeper/repo-transformation-guide.md
+agents/housekeeper/validation.md
+features/ledger.md
+obsidian/
+obsidian/journal/
+repo-manifest.md
+release-ledger.md
+```
+
+The repo says where the agent should start, what order it should follow, which files matter, how features are tracked, how decisions are remembered, and how work is validated.
 
 ## First Read
 
@@ -57,27 +79,10 @@ agent-housekeeper/
 ├── release-ledger.md
 ├── agents/
 │   └── housekeeper/
-│       ├── system-prompt/
-│       ├── templates/
-│       ├── README.md
-│       ├── persona.md
-│       ├── founder-operating-style.md
-│       ├── meticulous-stewardship.md
-│       ├── operating-manual.md
-│       ├── knowledge-sources.md
-│       ├── validation.md
-│       ├── graceful-validation.md
-│       ├── repo-transformation-guide.md
-│       ├── agent-folder-template.md
-│       └── feature-ledger-guide.md
 ├── docs/
 ├── examples/
 ├── features/
-│   ├── README.md
-│   ├── ledger.md
-│   └── tickets/
 ├── obsidian/
-│   └── journal/
 └── tests/
 ```
 
