@@ -34,6 +34,8 @@ The Repo Manifest tells the Housekeeper what files and folders matter.
 
 When a new important file or folder is added, update this manifest.
 
+Also review new guide files in docs when they are added.
+
 ## Design Rule Source
 
 See:
