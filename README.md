@@ -22,6 +22,17 @@ The Housekeeper Agent keeps the house organized.
 
 It knows which files matter, which folders must exist, which ledgers must be updated, and which rules should fire first.
 
+## Shared Source Skill
+
+When the same reusable standard is needed by more than one repo, the Housekeeper should help keep one main standard and let other repos reference it.
+
+This reduces duplicate maintenance and keeps the standard easier to improve.
+
+Read:
+
+- [Shared Source Management](docs/shared-source-management.md)
+- [Submodule Management Principle](docs/submodule-management-principle.md)
+
 ## Proof In The Repo
 
 The Housekeeper idea is backed by actual project structure:
@@ -104,6 +115,7 @@ agent-housekeeper/
 - system prompt files
 - validation reports
 - repo transformation plans
+- shared source plans
 
 ## Feature Ledger
 
@@ -133,6 +145,7 @@ agent-housekeeper/
 6. Add journals.
 7. Point the agent to the system prompt folder.
 8. Let the agent follow the firing order.
+9. When a copied reusable standard gets hard to manage, create a shared source plan.
 
 ## Related Docs
 
@@ -144,3 +157,5 @@ agent-housekeeper/
 - [Core System Prompt](agents/housekeeper/system-prompt/00-core-system-prompt.md)
 - [Firing Order](agents/housekeeper/system-prompt/01-firing-order.md)
 - [Repo Transformation Guide](agents/housekeeper/repo-transformation-guide.md)
+- [Shared Source Management](docs/shared-source-management.md)
+- [Submodule Management Principle](docs/submodule-management-principle.md)
