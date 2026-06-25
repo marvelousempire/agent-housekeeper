@@ -16,6 +16,7 @@ v0.1.1-design-aligned
 | --- | --- | --- | --- |
 | v0.1.0-standard | concept | Initial reusable Housekeeper Agent standard. | active |
 | v0.1.1-design-aligned | docs | Added Motif-style repo design rules, wiki layer, journal layer, and alignment audit. | active |
+| v0.1.2-reference-folder | docs | Added reference folder rule and ticket. | active |
 
 ## Release Types
 
