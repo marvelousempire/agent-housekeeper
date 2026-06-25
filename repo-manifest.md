@@ -25,8 +25,19 @@ The Repo Manifest tells the Housekeeper what files and folders matter.
 | docs/ | Guides and documentation | Keep organized |
 | examples/ | Example project setups | Keep practical |
 | features/ | Feature ledger | Keep current |
+| features/tickets/ | Small feature tickets | Keep linked from ledger |
+| obsidian/ | Wiki knowledge layer | Keep linked and RAG-ready |
+| obsidian/journal/ | Decision and memory history | Keep current after major changes |
 | tests/ | Validation notes | Keep visible |
 
 ## Housekeeper Rule
 
 When a new important file or folder is added, update this manifest.
+
+## Design Rule Source
+
+See:
+
+```text
+docs/repo-design-rules.md
+```
