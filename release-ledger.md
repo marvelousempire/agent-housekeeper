@@ -7,7 +7,7 @@ The Release Ledger tracks important repo states, milestones, and versions.
 ## Current Version
 
 ```text
-v0.1.0-standard
+v0.1.1-design-aligned
 ```
 
 ## Ledger
@@ -15,6 +15,7 @@ v0.1.0-standard
 | Version | Type | Summary | Status |
 | --- | --- | --- | --- |
 | v0.1.0-standard | concept | Initial reusable Housekeeper Agent standard. | active |
+| v0.1.1-design-aligned | docs | Added Motif-style repo design rules, wiki layer, journal layer, and alignment audit. | active |
 
 ## Release Types
 
@@ -25,6 +26,8 @@ v0.1.0-standard
 - template
 - validation
 - example
+- wiki
+- journal
 
 ## Housekeeper Duty
 
