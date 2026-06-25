@@ -35,6 +35,16 @@ agents/housekeeper/system-prompt/01-firing-order.md
 agents/housekeeper/system-prompt/firing-order.json
 ```
 
+## Motif Design Alignment
+
+This repo follows the Motif-style repo design rules.
+
+Read:
+
+- [Repo Design Rules](docs/repo-design-rules.md)
+- [Motif Design Alignment Audit](docs/motif-design-alignment-audit.md)
+- [Agent Housekeeper Wiki](obsidian/README.md)
+
 ## Main Folder Map
 
 ```text
@@ -66,6 +76,8 @@ agent-housekeeper/
 │   ├── README.md
 │   ├── ledger.md
 │   └── tickets/
+├── obsidian/
+│   └── journal/
 └── tests/
 ```
 
@@ -78,8 +90,8 @@ agent-housekeeper/
 - repo-manifest.md
 - release-ledger.md
 - docs/
-- obsidian/ or wiki notes
-- journals
+- obsidian/
+- obsidian/journal/
 - feature ledgers
 - feature tickets
 - release notes
@@ -87,6 +99,24 @@ agent-housekeeper/
 - system prompt files
 - validation reports
 - repo transformation plans
+
+## Feature Ledger
+
+- [Feature Ledger README](features/README.md)
+- [Feature Ledger](features/ledger.md)
+
+## Wiki Layer
+
+- [Agent Housekeeper Wiki](obsidian/README.md)
+- [Housekeeper Standard](obsidian/Housekeeper%20Standard.md)
+- [Repo Design Rules](obsidian/Repo%20Design%20Rules.md)
+- [System Prompt Firing Order](obsidian/System%20Prompt%20Firing%20Order.md)
+- [Feature Ledger Pattern](obsidian/Feature%20Ledger%20Pattern.md)
+- [Validation Pattern](obsidian/Validation%20Pattern.md)
+
+## Journal
+
+- [Journal Update - Motif Design Alignment](obsidian/journal/Journal%20Update%20-%20Motif%20Design%20Alignment.md)
 
 ## Reusable Workflow
 
