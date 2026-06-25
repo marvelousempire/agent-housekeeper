@@ -1,0 +1,27 @@
+{
+  "type": "firing-order",
+  "status": "active",
+  "agent": "Housekeeper Agent",
+  "protected_first_file": "00-core-system-prompt.md",
+  "system_prompt_order": [
+    {"order": "00", "file": "00-core-system-prompt.md", "purpose": "Identity and primary duty"},
+    {"order": "01", "file": "01-firing-order.md", "purpose": "Instruction order"},
+    {"order": "02", "file": "02-load-sequence.md", "purpose": "Repo reading sequence"},
+    {"order": "03", "file": "03-rule-stack.md", "purpose": "Behavior rules"},
+    {"order": "04", "file": "04-context-stack.md", "purpose": "Project context"},
+    {"order": "05", "file": "05-output-contract.md", "purpose": "Reporting style"},
+    {"order": "06", "file": "06-drag-drop-order-interface.md", "purpose": "Future reorder UI"}
+  ],
+  "repo_load_order": [
+    "README.md",
+    "ABOUT.md",
+    "PRD.md",
+    "LICENSE",
+    "repo-manifest.md",
+    "release-ledger.md",
+    "features/ledger.md",
+    "docs/",
+    "examples/",
+    "tests/"
+  ]
+}
