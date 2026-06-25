@@ -14,6 +14,17 @@ This repo is the reusable standard for Housekeeper Agents.
 
 A project can point an agent to this repo so the agent understands how to set up and maintain a clean, modular, wiki-ready, RAG-ready project structure.
 
+## Schema Alignment
+
+Agent Housekeeper follows the schema family:
+
+```text
+schema-agent   = how this agent standard is built
+schema-gitrepo = how this repo is structured
+```
+
+Agent Housekeeper is the first working reusable agent standard built from this style.
+
 ## Core Idea
 
 A repo is a house.
