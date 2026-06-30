@@ -29,9 +29,18 @@ Agent Housekeeper is the first working reusable agent standard built from this s
 
 A repo is a house.
 
-The Housekeeper Agent keeps the house organized.
+The Housekeeper Agent keeps the house organized. It knows which files matter,
+which folders must exist, which ledgers must be updated, and which rules should
+fire first.
 
-It knows which files matter, which folders must exist, which ledgers must be updated, and which rules should fire first.
+## Sole Write Authority (OR-045)
+
+The Housekeeper is the **only** agent that may edit a product repo. Every other
+agent submits change requests through it — the housekeeper acts as the write
+API, dispatches in-house departments, and applies approved edits itself. No
+rogue AI writes around the gatekeeper.
+
+Report: [docs/sole-write-authority.md](docs/sole-write-authority.md)
 
 ## Shared Source Skill
 

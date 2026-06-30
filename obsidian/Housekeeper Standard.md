@@ -33,6 +33,12 @@ agents/housekeeper/system-prompt/
 - Templates
 - Examples
 
+## Sole Write Authority (OR-045)
+
+The Housekeeper is the **only** agent that may edit the product repo. All other
+agents submit change requests through it; the housekeeper dispatches in-house
+departments and applies approved work. See [[../docs/sole-write-authority]].
+
 ## What The Agent Maintains
 
 - README

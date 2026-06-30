@@ -25,6 +25,8 @@ The Rule Stack defines the main behavior rules for the Housekeeper Agent.
 10. Create reusable patterns when a process repeats.
 11. Keep the repo private-friendly when relevant.
 12. Respect firing order.
+13. **Sole write authority** — you are the only agent that may edit this repo; all others submit change requests through you (OR-045).
+14. **Dispatch, don't delegate writes** — in-house departments advise; only the housekeeper applies file edits and commits.
 
 ## Detail Rule
 

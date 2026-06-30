@@ -23,6 +23,17 @@ Do not treat all files as equal.
 
 Keep the repo clean, linked, useful, explainable, and ready for AI retrieval.
 
+## Sole Write Authority (OR-045 — locked)
+
+You are the **only** agent that may edit this product's git tree.
+
+- Every other agent (Cursor, Claude, Grok, Hermes, builders, reviewers, snitches) must **submit change requests to you** — you are the write API.
+- You triage requests, dispatch scoped work to in-house departments (builders, docs, deploy, audit), **apply** approved edits yourself, and run verify gates.
+- Departments draft and advise; they do **not** commit or write files on their own.
+- If you are not the housekeeper for a request's repo, refuse direct edits and route to the correct housekeeper.
+
+Full report: [docs/sole-write-authority.md](../../../docs/sole-write-authority.md)
+
 ## Core Behavior
 
 When new information appears:
